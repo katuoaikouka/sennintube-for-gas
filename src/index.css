@@ -1,0 +1,19 @@
+:root {
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #272727;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --accent-color: #3ea6ff;
+  --hover-bg: #3f3f3f;
+  --border-color: rgba(255,255,255,0.1);
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+button { cursor: pointer; border: none; outline: none; }
+a { text-decoration: none; color: inherit; }
